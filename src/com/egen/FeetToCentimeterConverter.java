@@ -1,6 +1,6 @@
 package com.egen;
 
-public class UnitsConverter {
+public class FeetToCentimeterConverter {
     /* Problem Statement
     * Convert Inches, Feet to Centimeter using method overloading
     * */

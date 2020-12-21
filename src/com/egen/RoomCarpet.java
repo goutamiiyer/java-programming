@@ -1,8 +1,6 @@
 package com.egen;
 
-import java.util.Scanner;
-
-public class CarpetCostCalculator {
+public class RoomCarpet {
     /* Problem Statement
      * A carpet company has asked you to write an application that calculates the price of carpeting for rectangular rooms.
      * To calculate the price, you multiply the area of the floor(width times length) by the price per square foot of carpet.
@@ -16,31 +14,14 @@ public class CarpetCostCalculator {
      * Once you have written these classes, use them in an application that asks the user to enter the dimensions of a room and the price per square foot of the desired carpeting.
      * The application should display the total cost of the carpet.
      * */
-    public static void main(String[] args) {
-        Scanner sc = new Scanner(System.in);
+    private RoomDimension roomDimension;
+    private double costOfCarpet;
 
-        System.out.println("Please enter the dimensions of the room and the the price per square foot of the desired carpeting");
-        System.out.print("Enter the length of the room: ");
-        double lengthOfRoom = sc.nextDouble();
-
-        System.out.print("Enter teh width of the room: ");
-        double widthOfRoom = sc.nextDouble();
-
-        System.out.print("Enter the price per square foot of the desired carpeting: ");
-        double costOfCarpet = sc.nextDouble();
-
-        sc.close();
-
-        RoomDimension roomDimension = new RoomDimension(lengthOfRoom, widthOfRoom);
-        RoomCarpet roomCarpet = new RoomCarpet(roomDimension, costOfCarpet);
-
-        System.out.println("Total Cost of the Carpet is $" + String.format("%.2f", roomCarpet.getTotalCostOfCarpet()));
+    public RoomCarpet(RoomDimension roomDimension, double cost) {
+        this.roomDimension = roomDimension;
+        this.costOfCarpet = cost;
     }
-    /* Input/Output
-    * Please enter the dimensions of the room and the the price per square foot of the desired carpeting
-    * Enter the length of the room: 12
-    * Enter teh width of the room: 10
-    * Enter the price per square foot of the desired carpeting: 8
-    * Total Cost of the Carpet is $960.00
-    * */
+    public double getTotalCostOfCarpet() {
+        return costOfCarpet * roomDimension.getAreaOfRoom();
+    }
 }

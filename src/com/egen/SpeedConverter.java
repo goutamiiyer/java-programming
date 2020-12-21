@@ -1,6 +1,9 @@
 package com.egen;
 
 public class SpeedConverter {
+    /* Problem Statement
+     * Convert Kilometers per hour to Miles per hour
+     * */
     public static void main(String[] args) {
         double kilometersPerHour = 100;
         printSpeed(kilometersPerHour);
