@@ -2,15 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faa8e374-d903-49ad-b497-d999cc9aaca5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/egen/RoomCarpet.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/egen/RoomDimension.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOops/com/egen/CarpetCostCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaOops/com/egen/CarpetCostCalculator.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOops/com/egen/SpeedConverter.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaOops/com/egen/SpeedConverter.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOops/com/egen/UnitsConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/egen/CarpetCostCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/egen/CarpetCostCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/egen/SpeedConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/egen/SpeedConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/egen/UnitsConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/egen/FeetToCentimeterConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOops/com/egen/CarpetCostCalculator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOops/com/egen/FeetToCentimeterConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOops/com/egen/RoomCarpet.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOops/com/egen/RoomDimension.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOops/com/egen/SpeedConverter.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/egen/CarpetCostCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carpetcostcalc/CarpetCostCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/egen/FeetToCentimeterConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/converter/FeetToCentimeterConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/egen/RoomCarpet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carpetcostcalc/RoomCarpet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/egen/RoomDimension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carpetcostcalc/RoomDimension.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/egen/SpeedConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/converter/SpeedConverter.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,6 +29,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
+  <component name="JupyterTrust" id="1422d50d-323b-437b-8283-054c5bdfe87f" />
   <component name="ProjectId" id="1lyqFR0Bp4mKZXMiC6h44yR00fI" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -37,8 +40,22 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Leetcode" />
   </component>
-  <component name="RunManager" selected="Application.CarpetCostCalculator">
+  <component name="RunManager" selected="Application.CarpetCostCalculator (1)">
+    <configuration name="CarpetCostCalculator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="carpetcostcalc.CarpetCostCalculator" />
+      <module name="JavaOops" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="carpetcostcalc.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CarpetCostCalculator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.egen.CarpetCostCalculator" />
       <module name="JavaOops" />
@@ -79,9 +96,11 @@
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.FeetToCentimeterConverter" />
       <item itemvalue="Application.CarpetCostCalculator" />
+      <item itemvalue="Application.CarpetCostCalculator (1)" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CarpetCostCalculator (1)" />
         <item itemvalue="Application.CarpetCostCalculator" />
         <item itemvalue="Application.FeetToCentimeterConverter" />
       </list>
@@ -109,7 +128,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608579575510</updated>
-      <workItem from="1608579579477" duration="8403000" />
+      <workItem from="1608579579477" duration="11106000" />
     </task>
     <servers />
   </component>
@@ -117,22 +136,26 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1608588283550">
+    <state x="421" y="97" key="FileChooserDialogImpl" timestamp="1608588909827">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608588283550" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1608588283550">
+    <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1608588909827" />
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1608648547868">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608588283550" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1608588283549">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608648547868" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1608648547868">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608588283549" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1608588283550">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608648547868" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1608648547867">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608588283550" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608648547867" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1608648547868">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608648547868" />
     <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1608579585230">
       <screen x="0" y="0" width="1280" height="680" />
     </state>

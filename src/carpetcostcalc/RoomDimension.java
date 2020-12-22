@@ -1,4 +1,4 @@
-package com.egen;
+package carpetcostcalc;
 
 public class RoomDimension {
     /* Problem Statement

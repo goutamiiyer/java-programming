@@ -1,4 +1,4 @@
-package com.egen;
+package converter;
 
 public class FeetToCentimeterConverter {
     /* Problem Statement

@@ -1,4 +1,4 @@
-package com.egen;
+package carpetcostcalc;
 
 import java.util.Scanner;
 
@@ -23,7 +23,7 @@ public class CarpetCostCalculator {
         System.out.print("Enter the length of the room: ");
         double lengthOfRoom = sc.nextDouble();
 
-        System.out.print("Enter teh width of the room: ");
+        System.out.print("Enter the width of the room: ");
         double widthOfRoom = sc.nextDouble();
 
         System.out.print("Enter the price per square foot of the desired carpeting: ");
@@ -32,7 +32,7 @@ public class CarpetCostCalculator {
         sc.close();
 
         RoomDimension roomDimension = new RoomDimension(lengthOfRoom, widthOfRoom);
-        RoomCarpet roomCarpet = new RoomCarpet(roomDimension, costOfCarpet);
+        RoomCarpet roomCarpet = new RoomCarpet(lengthOfRoom, widthOfRoom, costOfCarpet);
 
         System.out.println("Total Cost of the Carpet is $" + String.format("%.2f", roomCarpet.getTotalCostOfCarpet()));
     }

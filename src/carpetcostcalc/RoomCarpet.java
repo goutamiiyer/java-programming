@@ -1,6 +1,6 @@
-package com.egen;
+package carpetcostcalc;
 
-public class RoomCarpet {
+public class RoomCarpet extends RoomDimension {
     /* Problem Statement
      * A carpet company has asked you to write an application that calculates the price of carpeting for rectangular rooms.
      * To calculate the price, you multiply the area of the floor(width times length) by the price per square foot of carpet.
@@ -14,14 +14,13 @@ public class RoomCarpet {
      * Once you have written these classes, use them in an application that asks the user to enter the dimensions of a room and the price per square foot of the desired carpeting.
      * The application should display the total cost of the carpet.
      * */
-    private RoomDimension roomDimension;
     private double costOfCarpet;
 
-    public RoomCarpet(RoomDimension roomDimension, double cost) {
-        this.roomDimension = roomDimension;
+    public RoomCarpet(double length, double width, double cost) {
+        super(length, width);
         this.costOfCarpet = cost;
     }
     public double getTotalCostOfCarpet() {
-        return costOfCarpet * roomDimension.getAreaOfRoom();
+        return costOfCarpet * super.getAreaOfRoom();
     }
 }
