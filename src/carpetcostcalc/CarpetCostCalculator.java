@@ -30,8 +30,7 @@ public class CarpetCostCalculator {
         double costOfCarpet = sc.nextDouble();
 
         sc.close();
-
-        RoomDimension roomDimension = new RoomDimension(lengthOfRoom, widthOfRoom);
+        
         RoomCarpet roomCarpet = new RoomCarpet(lengthOfRoom, widthOfRoom, costOfCarpet);
 
         System.out.println("Total Cost of the Carpet is $" + String.format("%.2f", roomCarpet.getTotalCostOfCarpet()));

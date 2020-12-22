@@ -3,16 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="faa8e374-d903-49ad-b497-d999cc9aaca5" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOops/com/egen/CarpetCostCalculator.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOops/com/egen/FeetToCentimeterConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOops/com/egen/RoomCarpet.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOops/com/egen/RoomDimension.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/JavaOops/com/egen/SpeedConverter.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/egen/CarpetCostCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carpetcostcalc/CarpetCostCalculator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/egen/FeetToCentimeterConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/converter/FeetToCentimeterConverter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/egen/RoomCarpet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carpetcostcalc/RoomCarpet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/egen/RoomDimension.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carpetcostcalc/RoomDimension.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/egen/SpeedConverter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/converter/SpeedConverter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/carpetcostcalc/CarpetCostCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carpetcostcalc/CarpetCostCalculator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,7 +119,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608579575510</updated>
-      <workItem from="1608579579477" duration="11106000" />
+      <workItem from="1608579579477" duration="11344000" />
     </task>
     <servers />
   </component>
@@ -140,22 +131,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1608588909827" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1608648547868">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1608648858212">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608648547868" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1608648547868">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608648858212" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1608648858211">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608648547868" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1608648547867">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608648858211" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1608648858211">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608648547867" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1608648547868">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608648858211" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1608648858212">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608648547868" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608648858212" />
     <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1608579585230">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
