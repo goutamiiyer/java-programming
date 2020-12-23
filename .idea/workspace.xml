@@ -2,6 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faa8e374-d903-49ad-b497-d999cc9aaca5" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/rpsgame/Computer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rpsgame/Move.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rpsgame/RockPaperScissors.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/rpsgame/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/carpetcostcalc/CarpetCostCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carpetcostcalc/CarpetCostCalculator.java" afterDir="false" />
     </list>
@@ -31,9 +35,9 @@
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Leetcode" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
   </component>
-  <component name="RunManager" selected="Application.CarpetCostCalculator (1)">
+  <component name="RunManager" selected="Application.RockPaperScissors">
     <configuration name="CarpetCostCalculator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="carpetcostcalc.CarpetCostCalculator" />
       <module name="JavaOops" />
@@ -83,14 +87,29 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="RockPaperScissors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="rpsgame.RockPaperScissors" />
+      <module name="JavaOops" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="rpsgame.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.Main" />
       <item itemvalue="Application.FeetToCentimeterConverter" />
       <item itemvalue="Application.CarpetCostCalculator" />
       <item itemvalue="Application.CarpetCostCalculator (1)" />
+      <item itemvalue="Application.RockPaperScissors" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.RockPaperScissors" />
         <item itemvalue="Application.CarpetCostCalculator (1)" />
         <item itemvalue="Application.CarpetCostCalculator" />
         <item itemvalue="Application.FeetToCentimeterConverter" />
@@ -119,7 +138,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1608579575510</updated>
-      <workItem from="1608579579477" duration="11344000" />
+      <workItem from="1608579579477" duration="11959000" />
+      <workItem from="1608735421141" duration="2975000" />
     </task>
     <servers />
   </component>
@@ -131,22 +151,22 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1608588909827" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1608648858212">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1608738428522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608648858212" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1608648858211">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608738428522" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1608738428522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608648858211" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1608648858211">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608738428522" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1608738428522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608648858211" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1608648858212">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608738428522" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1608738428522">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608648858212" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608738428522" />
     <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1608579585230">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
