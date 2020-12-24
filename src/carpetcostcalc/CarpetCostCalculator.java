@@ -2,6 +2,12 @@ package carpetcostcalc;
 
 import java.util.Scanner;
 
+import org.apache.log4j.ConsoleAppender;
+import org.apache.log4j.Level;
+import org.apache.log4j.Logger;
+import org.apache.log4j.SimpleLayout;
+import org.apache.log4j.PatternLayout;
+
 public class CarpetCostCalculator {
     /* Problem Statement
      * A carpet company has asked you to write an application that calculates the price of carpeting for rectangular rooms.

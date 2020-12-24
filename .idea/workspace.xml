@@ -2,12 +2,21 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="faa8e374-d903-49ad-b497-d999cc9aaca5" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/rpsgame/Computer.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rpsgame/Move.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rpsgame/RockPaperScissors.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/rpsgame/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/org_apache_logging_log4j_log4j_1_2_api_2_11_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/RockPaperScissorsGame/RockPaperScissors.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/JavaOops.iml" beforeDir="false" afterPath="$PROJECT_DIR$/JavaOops.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOops/carpetcostcalc/CarpetCostCalculator.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/JavaOops/carpetcostcalc/CarpetCostCalculator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOops/rpsgame/Computer.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOops/rpsgame/Move$1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOops/rpsgame/Move.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOops/rpsgame/RockPaperScissors.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/JavaOops/rpsgame/User.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/carpetcostcalc/CarpetCostCalculator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/carpetcostcalc/CarpetCostCalculator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpsgame/Computer.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpsgame/Move.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpsgame/RockPaperScissors.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/rpsgame/User.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,9 +42,23 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Libraries" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Gomi\UTA\Workspace\JavaOops\out\production\JavaOops\carpetcostcalc" />
+    </key>
   </component>
   <component name="RunManager" selected="Application.RockPaperScissors">
     <configuration name="CarpetCostCalculator (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -88,11 +111,11 @@
       </method>
     </configuration>
     <configuration name="RockPaperScissors" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="rpsgame.RockPaperScissors" />
+      <option name="MAIN_CLASS_NAME" value="RockPaperScissorsGame.RockPaperScissors" />
       <module name="JavaOops" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="rpsgame.*" />
+          <option name="PATTERN" value="RockPaperScissorsGame.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,7 +162,7 @@
       <option name="presentableId" value="Default" />
       <updated>1608579575510</updated>
       <workItem from="1608579579477" duration="11959000" />
-      <workItem from="1608735421141" duration="2975000" />
+      <workItem from="1608735421141" duration="11683000" />
     </task>
     <servers />
   </component>
@@ -151,25 +174,33 @@
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="421" y="97" key="FileChooserDialogImpl/0.0.1280.680@0.0.1280.680" timestamp="1608588909827" />
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1608738428522">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom" timestamp="1608773596876">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608738428522" />
-    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1608738428522">
+    <state width="1237" height="163" key="GridCell.Tab.0.bottom/0.0.1280.680@0.0.1280.680" timestamp="1608773596876" />
+    <state width="1237" height="163" key="GridCell.Tab.0.center" timestamp="1608773596876">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608738428522" />
-    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1608738428522">
+    <state width="1237" height="163" key="GridCell.Tab.0.center/0.0.1280.680@0.0.1280.680" timestamp="1608773596876" />
+    <state width="1237" height="163" key="GridCell.Tab.0.left" timestamp="1608773596875">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608738428522" />
-    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1608738428522">
+    <state width="1237" height="163" key="GridCell.Tab.0.left/0.0.1280.680@0.0.1280.680" timestamp="1608773596875" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right" timestamp="1608773596876">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
-    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608738428522" />
+    <state width="1237" height="163" key="GridCell.Tab.0.right/0.0.1280.680@0.0.1280.680" timestamp="1608773596876" />
+    <state x="142" y="0" key="SettingsEditor" timestamp="1608741952794">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="142" y="0" key="SettingsEditor/0.0.1280.680@0.0.1280.680" timestamp="1608741952794" />
     <state x="337" y="166" key="com.intellij.ide.util.TipDialog" timestamp="1608579585230">
       <screen x="0" y="0" width="1280" height="680" />
     </state>
     <state x="337" y="166" key="com.intellij.ide.util.TipDialog/0.0.1280.680@0.0.1280.680" timestamp="1608579585230" />
+    <state x="396" y="235" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1608740924441">
+      <screen x="0" y="0" width="1280" height="680" />
+    </state>
+    <state x="396" y="235" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1280.680@0.0.1280.680" timestamp="1608740924441" />
   </component>
 </project>
