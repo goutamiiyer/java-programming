@@ -35,7 +35,21 @@ public class CarpetCostCalculator {
         System.out.print("Enter the price per square foot of the desired carpeting: ");
         double costOfCarpet = sc.nextDouble();
 
+        System.out.println("Which type of carpet do you want?");
+        System.out.println("W - Wool, N - Nylon, S - Smartstrand, P - Polyester, O - Olefin");
+        String carpetType = sc.next();
+
+        System.out.println("Which Living do you prefer? ");
+        System.out.println("A - Apartment or Rental, M - Middle class, D - Durable Home, L- Luxury home");
+        String livingType = sc.next();
+
         sc.close();
+
+        PricePerSquareFoot pricePerSquareFoot = new PricePerSquareFoot(carpetType);
+        costOfCarpet = pricePerSquareFoot.getCost(costOfCarpet);
+
+        LivingSituation living = new LivingSituation(livingType);
+        costOfCarpet = living.getCost(costOfCarpet);
 
         RoomCarpet roomCarpet = new RoomCarpet(lengthOfRoom, widthOfRoom, costOfCarpet);
 
